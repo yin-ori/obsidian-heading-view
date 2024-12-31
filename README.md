@@ -1,17 +1,13 @@
-# Obsidian Sample Plugin
+# Obsidian Heading View Plugin
 
-This is a sample plugin for Obsidian (https://obsidian.md).
+This is a community plugin for Obsidian (https://obsidian.md).
 
 This project uses TypeScript to provide type checking and documentation.
 
 The repo depends on the latest plugin API (obsidian.d.ts) in TypeScript Definition format, which contains TSDoc comments describing what it does.
 
-This sample plugin demonstrates some of the basic functionality the plugin API can do.
-- Adds a ribbon icon, which shows a Notice when clicked.
-- Adds a command "Open Sample Modal" which opens a Modal.
-- Adds a plugin setting tab to the settings page.
-- Registers a global click event and output 'click' to the console.
-- Registers a global interval which logs 'setInterval' to the console.
+This plugin will allow you to view your files in the file explorer with the first heading, instead of the file name. 
+It was created in the attempt to offer the same functionality that Zettlr offers, as I find it exremely helpful to instantly see the content of the file, while maintaining a time stamp file name.
 
 ## First time developing plugins?
 
