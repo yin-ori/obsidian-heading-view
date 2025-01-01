@@ -1,0 +1,11 @@
+{
+	"id": "heading-view-plugin",
+	"name": "Heading Viewer",
+	"version": "1.0.0",
+	"minAppVersion": "1.7.7",
+    "description": "Displays the first heading of a markdown file instead of its filename in both the tabs and File Explorer.",
+	"author": "JMS",
+	"authorUrl": "https://ko-fi.com/suuyuu",
+	"fundingUrl": "https://ko-fi.com/suuyuu",
+	"isDesktopOnly": false
+}
