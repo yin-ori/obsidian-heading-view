@@ -1,6 +1,6 @@
 {
 	"id": "heading-view",
-	"name": "Heading Viewer",
+	"name": "Heading View",
 	"version": "1.0.0",
 	"minAppVersion": "1.7.7",
     "description": "Displays the first heading of a markdown file instead of its filename in both the tabs and File Explorer.",
