@@ -29,9 +29,9 @@ export default class HeadingDisplayPlugin extends Plugin {
       if (!(file instanceof TFile)) continue;
 
       // Get the first heading from the file content
-      const content = await this.app.vault.cachedRead(file);
-      const contentWithoutYaml = this.removeYamlHeader(content);
-      const firstHeading = this.getFirstHeading(contentWithoutYaml);
+      const metadata = this.app.metadataCache.getFileCache(file);
+      const headings = metadata?.headings;
+      const firstHeading = headings?.[0]?.heading ?? null;
 
       // Find the corresponding element in the File Explorer
       const fileExplorerElement = document.querySelector(
